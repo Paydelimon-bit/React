@@ -1,22 +1,23 @@
-
-import {cn} from "@/lib/utils";
-
+import React from "react";
 interface CardProps{
-    children?: React.ReactNode;
-    className?:string;
+    h2?:React.ReactNode;
+    h3?:React.React
 }
 
-function Card({children,className}:CardProps){
-    return (
 
-    <div className={cn(" flex flex-col border-2 border-black m-4 gap-2.5 text-center"
-    )}>
-        <p>Esta es una tarjeta</p>
-        {children}
+function Card({h2,h3}:CardProps){
+    return (
+    <>
+    <div className={" flex flex-col border-2 border-black m-4 gap-2.5 text-center"}>
+        <h2>{h2}</h2>
+        <h3></h3>
+        
     </div>
+    </>
     );
     
     
+    
 }
 
-export { Card };
+export default Card ;
