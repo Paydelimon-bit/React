@@ -9,22 +9,23 @@ import Intro3 from './components/ui/Intro3'
 import Nav from './components/ui/Nav'
 import Promo from './components/ui/Promo'
 import Layout from './components/ui/Layout'
+import CardRandom from './components/ui/CardRandom'
 
 function App() {
+  
+ 
+
 
  return (
   <>
   <Layout>
-    <Card h2="Buenas noches"/>
-  <Heading name="Saul" age={12}/>
-  <Nav/>
-  <Card/>    
-  <Footer/>
-  <Intro1/>
-  <Intro2/>
-  <Intro3/>
-  <Promo/>
+    
+    
   </Layout>
+  
+  
+
+
   </>
  )
  
